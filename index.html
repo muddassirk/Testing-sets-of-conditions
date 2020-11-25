@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div style="width: 40%; margin-left: auto; margin-right: auto;">
+    <div>
+        <li>Nationality</li>
+        <li>Height</li>
+        <li>Age</li>
+        <li>Education</li>
+        <li>Only master level condidates allow 28 age</li>
+    </div>
+    <br><br><br>
+
+    <form action="#" onsubmit="check()">
+
+        Nationality:
+        <input id="Nationality" type="text" placeholder="Enter your nationality" required>
+        <br><br>
+        Height:
+        <input id="Height" type="number" placeholder="Enter your height" required>
+        <br><br>
+        Age:
+        <input id="Age" type="number" placeholder="Enter your age" required>
+        <br><br>
+        Education:
+        <select name="Educat" id="Education">
+            
+            <option value="" >Matric
+            </option>
+            <option value="" >Intermediate
+            </option>
+            <option value="" >Graduate
+            </option>
+            
+        </select>
+        <br><br>
+    
+        <!-- <select name="Educat" id="EducationMaster">
+            <option value="" > 
+            </option>
+            
+            <option value="" > Master
+            </option>
+            
+            
+        </select> -->
+        <br><br>
+        <button>submit</button>
+        
+
+    </form>
+    <p id="result"></p>
+
+</div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
